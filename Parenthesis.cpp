@@ -43,6 +43,17 @@ break string by half ,
 reverse 2nd string 
 comapre 1st and 2nd string
 
+alter:
+take stack 
+push f-1111
+if s.top=[/{/( && x[i]=]/}/)
+ pop
+else
+ push
+
+in last check s.top=f then balanced
+other other not balanced
+
 
 */
 //{ Driver Code Starts
