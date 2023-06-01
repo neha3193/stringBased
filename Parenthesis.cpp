@@ -59,6 +59,7 @@ class Solution
     bool ispar(string x)
     {
         // Your code here
+        /*
         int i,j;
         bool b;
         int len= x.length();
@@ -74,10 +75,22 @@ class Solution
                     b= 0;
             }
             b=1;
+       stack<char>s;
+        s.push('f');
+        for(int i=0;i<x.size();i++){
+            if((s.top()=='['&& x[i]==']')||(s.top()=='{'&& x[i]=='}')||(s.top()=='('&& x[i]==')'))
+            s.pop();
+            else
+            s.push(x[i]);
         }
+        bool b= 'f'==s.top();
+        return b;
+  }
         else
           b=0;
       return b;
+      */
+        
     }
 
 };
